@@ -1,0 +1,23 @@
+.container {
+  margin-bottom: 10px;
+}
+.inner {
+  gap: 30px;
+  border: 1px solid #905ad7;
+}
+.nav button {
+  outline: none;
+}
+section button {
+  background-color: #98b4ce;
+  border: 2px solid black;
+}
+section button:hover {
+  box-shadow: 0 0 5px #98b4ce, 0 0 15px #98b4ce, 0 0 30px #98b4ce;
+  border-color: #98b4ce;
+}
+section button:focus {
+  background-color: black;
+  color: #98b4ce;
+  border: 2px solid #98b4ce;
+}

@@ -1,0 +1,107 @@
+.hero {
+  position: relative;
+  height: 100vh;
+
+  background: linear-gradient(#000, #2b1942 35%, #8f5c55 60%, #dbaf6e 80%);
+}
+
+.profile img {
+  width: 35vh;
+  height: 35vh;
+}
+
+.head1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text {
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #f41809 35%, #f18034 60%, #f09611 80%);
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
+.l {
+  background: linear-gradient(to left, #7943c0 35%, #d66d5f 60%, #d1a25d 80%);
+  background-clip: text;
+  color: transparent;
+}
+.black {
+  background: linear-gradient(#2b1942, #000 60%);
+  position: absolute;
+
+  border-radius: 50% 50% 0 0;
+  text-align: center;
+}
+.hl {
+  background: linear-gradient(#fa5a3d, #441780);
+  background-clip: text;
+  color: transparent;
+}
+.content {
+  color: #98b4ce;
+}
+.head {
+  color: #98b4ce;
+}
+.role {
+  color: #98b4ce;
+}
+.row {
+  margin-right: calc(-0 * var(--bs-gutter-x)) !important;
+}
+@keyframes screw1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Butterfly Movement Animation */
+@keyframes screw2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(150px, 120px); /* Move up-right */
+  }
+  50% {
+    transform: translate(120px, 0); /* Move down-right */
+  }
+  75% {
+    transform: translate(120px, 200px); /* Move down-left */
+  }
+  100% {
+    transform: translate(0, 0); /* Back to start */
+  }
+}
+@keyframes tunder1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Butterfly Movement Animation */
+@keyframes tunder2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-100px, -50px); /* Move up-left */
+  }
+  50% {
+    transform: translate(-200px, 0); /* Move down-left */
+  }
+  75% {
+    transform: translate(-100px, 50px); /* Move down-right */
+  }
+  100% {
+    transform: translate(0, 0); /* Back to start */
+  }
+}

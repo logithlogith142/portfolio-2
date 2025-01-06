@@ -1,0 +1,31 @@
+.projects {
+  height: 85%;
+  background: linear-gradient(black 2%, #441e76, black);
+}
+.con {
+  color: aliceblue;
+  border-radius: 10px;
+}
+.btnc {
+  height: 100px;
+  position: absolute;
+  top: 30%;
+}
+.bt {
+  padding: 3px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #d61d10, #ee6a13, #dbaf6e);
+}
+
+.bt a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+h1 {
+  background: linear-gradient(#f41809 35%, #f18034 60%);
+  background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,74 @@
+.about {
+  background: linear-gradient(black, #441e76, black);
+  height: 85%;
+}
+.divider {
+  border: 1px solid white;
+  border-radius: 8px;
+  background: linear-gradient(
+    -45deg,
+
+    #2f1f4c,
+    #523c8a,
+    #8166c9,
+    #643f76,
+    #2b244a
+  );
+
+  background-size: 400% 400%;
+  animation: gradient 5s ease-in infinite;
+  transition-duration: 0.4s;
+}
+.div1 {
+  background: linear-gradient(-45deg, #311653, #58431a, #9a4425, #2b1942);
+  background-size: 400% 400%;
+  animation: gradient 10s ease-in infinite;
+  transition-duration: 0.4s;
+}
+
+h2 {
+  background: linear-gradient(#fa5a3d, #441780);
+  background-clip: text;
+  color: transparent;
+}
+p,
+h6 {
+  color: #98b4ce;
+}
+.divider a {
+  color: #311653;
+}
+.divider ul {
+  padding-left: 0;
+  list-style: decimal;
+}
+li::marker {
+  color: #311653;
+}
+
+.text {
+  text-align: center;
+}
+.divider #text {
+  text-align: center;
+}
+span {
+  color: #98b4ce;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 25%;
+  }
+
+  50% {
+    background-position: 25% 50%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}
+.divider:hover {
+  box-shadow: 0 0 5px #98b4ce, 0 0 15px #98b4ce, 0 0 30px #98b4ce;
+  transform: scale(1.1, 1.1);
+}

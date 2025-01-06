@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Playwrite+AU+VIC+Guides&family=Playwrite+NO+Guides&display=swap");
+
+.brand span {
+  color: #ea1f11;
+}
+.brand {
+  background: linear-gradient(to right, #d61d10, #ee6a13, #dbaf6e);
+  background-clip: text;
+  color: transparent !important;
+  font-family: "Mr De Haviland";
+  font-size: xx-large;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.button1 {
+  border-color: black !important;
+  color: black !important;
+  background: linear-gradient(to right, #d61d10, #ee6a13, #dbaf6e);
+}
+.button1:hover {
+  color: #ee6a13 !important;
+  background: linear-gradient(black, black, black) !important;
+  border: 2px solid #ee6a13 !important;
+}
+.navbar-toggler:focus {
+  color: #792ddc !important;
+  box-shadow: 0 0 5px #ee6a13, 0 0 15px #ee6a13;
+}
+.button2 {
+  color: #ee6a13;
+  border: #ee6a13 2px solid;
+}
+.button2:hover {
+  color: #792ddc;
+  border: #ee6a13 2px solid;
+}
+.navbar-toggler {
+  border: 1px solid #ee6a13;
+}

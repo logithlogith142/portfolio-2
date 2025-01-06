@@ -1,0 +1,29 @@
+.contact {
+  height: 90%;
+}
+.contact a {
+  text-decoration: none;
+}
+.contact h5,
+#git {
+  background: linear-gradient(#fa5a3d, #441780) !important;
+  background-clip: text !important;
+  color: transparent !important;
+  cursor: pointer;
+}
+.contact .icon {
+  color: #854ecd;
+}
+.contact h5:hover,
+#git:hover {
+  color: rgb(6, 69, 163) !important;
+}
+.footer {
+  background-color: black;
+  border-top: 1px solid white;
+}
+.footer p {
+  background: linear-gradient(to left, #7943c0 35%, #d66d5f 60%, #d1a25d 80%);
+  background-clip: text;
+  color: transparent;
+}
