@@ -8,7 +8,11 @@ import { MdDashboardCustomize } from "react-icons/md";
 export default function Bottom() {
   return (
     <bottom className="container bg dark d-flex flex-row justify-content-center fixed-bottom">
-      <div className="inner d-flex flex-row justify-content-center bg-transparent bg-gradient rounded-5 px-4 py-2 ">
+      <div
+        className="inner d-flex flex-row justify-content-center bg-transparent bg-gradient rounded-5 px-4 py-2 "
+        data-aos="zoom-out"
+        data-aos-offset="80"
+      >
         <section>
           <a href="#home">
             <button className="rounded-5 px-2 d-flex justify-content-center py-2 btn1  ">

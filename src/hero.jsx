@@ -61,7 +61,7 @@ export default function Hero() {
       </div>
 
       <div id="carouselExampleRide" className="carousel slide carousel-fade">
-        <div className="carousel-inner">
+        <div className="carousel-inner" data-aos="zoom-in-down">
           {obj.map((o, i) => (
             <div
               key={i}
@@ -74,6 +74,7 @@ export default function Hero() {
                   src={o.img}
                   className="img-fluid col-lg-6 col-sm-4 col-md-4"
                   alt="Project Icon"
+                  data-aos="flip-right"
                 />
                 <div className=" col-lg-4 col-sm-8 col-md-4 pt-3 pb-3">
                   <h3>{o.title}</h3>

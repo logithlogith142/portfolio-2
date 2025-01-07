@@ -13,12 +13,12 @@ function App() {
   return (
     <div className="hero pt-5" id="home">
       <div className="head1 d-flex flex-column gap-4  ">
-        <div>
+        <div data-aos="fade-left">
           <h3 className="head position-relative z-1">
             Hi, I'am <span className="l">LOGITH V</span>
           </h3>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <h1 className="text position-relative">
             <span className="role">I'am a</span>
             <br /> {text}
@@ -26,7 +26,7 @@ function App() {
           </h1>
         </div>
 
-        <div className="px-4">
+        <div className="px-4" data-aos="fade-up">
           <h5 className="content position-relative z-1">
             Bridging web and smart tech, I innovate as a{" "}
             <span className="hl">MERN stack</span> and{" "}
@@ -36,7 +36,7 @@ function App() {
       </div>
       <div className="black p-relative bottom-0 w-100 h-25">
         <div className="profile  p-absolute start-50 translate-middle-y ">
-          <img src={img3} alt="" />
+          <img src={img3} alt="" data-aos="flip-up" />
         </div>
       </div>
     </div>

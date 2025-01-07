@@ -12,7 +12,10 @@ export default function About() {
         </h1>
       </div>
       <div className="row d-flex justify-content-center gap-3 mt-5 ">
-        <div className="col-10 col-md-6 col-lg-5  divider d-flex gap-3 align-items-start pt-3">
+        <div
+          className="col-10 col-md-6 col-lg-5  divider d-flex gap-3 align-items-start pt-3"
+          data-aos="flip-left"
+        >
           <div className="icon pt-4">
             <MdOutlineCastForEducation
               size={90}
@@ -26,7 +29,10 @@ export default function About() {
             <p>KG College of Arts and Science</p>
           </div>
         </div>
-        <div className="col-10 col-md-6 col-lg-5 divider d-flex gap-3 align-items-start pt-3">
+        <div
+          className="col-10 col-md-6 col-lg-5 divider d-flex gap-3 align-items-start pt-3"
+          data-aos="flip-right"
+        >
           <div className="icon pt-4">
             <MdMonitor size={90} style={{ color: " #311653" }} />
           </div>
@@ -45,7 +51,10 @@ export default function About() {
             </ul>
           </div>
         </div>
-        <div className="col-10 col-md-6 col-lg-5 divider d-flex gap-3 align-items-start pt-3">
+        <div
+          className="col-10 col-md-6 col-lg-5 divider d-flex gap-3 align-items-start pt-3"
+          data-aos="flip-left"
+        >
           <div className="icon pt-4">
             <PiCertificateLight size={90} style={{ color: " #311653" }} />
           </div>
@@ -61,7 +70,10 @@ export default function About() {
             </ul>
           </div>
         </div>
-        <div className="col-10 col-md-6 col-lg-5 divider d-flex gap-3 align-items-start pt-3">
+        <div
+          className="col-10 col-md-6 col-lg-5 divider d-flex gap-3 align-items-start pt-3"
+          data-aos="flip-right"
+        >
           <div className="icon pt-4">
             <GiAchievement size={90} style={{ color: " #311653" }} />
           </div>
